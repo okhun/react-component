@@ -3,11 +3,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import ReactComponent from "./ReactComponent";
+import PureComponent from "./PureComponent";
 import App from "./App";
 // Creating react element using createElement
 
 ReactDOM.render(
-  <ReactComponent></ReactComponent>,
+  <PureComponent></PureComponent>,
   document.getElementById("root")
 );
 
