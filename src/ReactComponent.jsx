@@ -1,6 +1,6 @@
-import { Component } from "react";
+import React from "react";
 
-class ReactComponent extends Component {
+class ReactComponent extends React.Component {
   render() {
     return (
       <div style={{ backgroundColor: "green" }}>It is React Component</div>
