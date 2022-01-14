@@ -4,9 +4,13 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import ReactComponent from "./ReactComponent";
-// Creating react element using React.Component
+// Creating react element using createElement
+const title = React.createElement("h1", {}, "My First React Code");
 
-ReactDOM.render(ReactComponent, document.getElementById("root"));
+ReactDOM.render(
+  title,
+  document.getElementById("root")
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
