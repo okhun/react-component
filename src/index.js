@@ -1,14 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+// import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import ReactComponent from "./ReactComponent";
-import PureComponent from "./PureComponent";
-import SearchForm from "./searchForm";
-import App from "./App";
+import SelectGenre from "./selectGenre";
 // Creating react element using createElement
 
-ReactDOM.render(<SearchForm></SearchForm>, document.getElementById("root"));
+ReactDOM.render(<SelectGenre></SelectGenre>, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
